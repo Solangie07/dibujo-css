@@ -36,8 +36,8 @@ align-items: center;
     position: relative;
 }
 .ojos {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 120px;
     background-color: rgba(0, 0, 0, 0.907);
     border-radius: 50%;
     position: absolute; 
@@ -77,4 +77,9 @@ align-items: center;
     top: 33%; 
     left: 42%;
 }
+#mejillas {
+    
+   
+}
+
 

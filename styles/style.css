@@ -45,6 +45,7 @@ align-items: center;
     background-color: rgba(0, 0, 0, 0.907);
     border-radius: 50%;
     position: absolute; 
+    
 }
 #ojoIzq {
     top: 20%;
@@ -64,9 +65,7 @@ align-items: center;
     position: relative;
     top: 70%;
     left: 35%;
-    animation-name: cambioColor;
-    animation-duration: 6s;
-    animation-iteration-count: infinite; 
+    
 }
 
 #sonrisa:hover{
@@ -96,7 +95,17 @@ height: 18%;
    background-color: rgba(240, 187, 223, 0.781);
    border-radius: 80%; 
    position: absolute;
+   animation-name: cambioColor;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
 }
+@keyframes cambioColor {
+    0% {background-color: blue;}
+    25% {background-color: azure;}
+    50% {background-color: brown;}
+    100% {background-color: black;}
+}
+
 #mejillaDer{
     top: 45%;
     right: 10%;
@@ -106,6 +115,7 @@ height: 18%;
     top: 45%;
     left: 10%;
 }
+
 #cara:hover{
     transform: rotate(360deg) scale(0.5);
 }

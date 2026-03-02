@@ -34,6 +34,10 @@ align-items: center;
     background-color: rgba(167, 233, 214, 0.758);
     border-radius: 50%; 
     position: relative;
+    transition: all 4s ease-in
+}
+#cara:hover{
+    transform: rotate(360deg) scale(0.5);
 }
 .ojos {
     width: 120px;
@@ -60,7 +64,19 @@ align-items: center;
     position: relative;
     top: 70%;
     left: 35%;
+    animation-name: cambioColor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; 
 }
+
+#sonrisa:hover{
+background-color:blue; 
+height: 18%;
+
+}
+.sonrisa:hover{
+    transform: rotate(360deg) scale(0.5);
+    }
 .nariz {
     width: 13%; 
     height: 12%;
@@ -70,14 +86,37 @@ align-items: center;
     top: 33%; 
     left: 42%;
 }
+.nariz:hover {
+    background-color: rgb(220, 237, 237);
+}
+
 .mejillas {
     width: 20%;
    height: 25%;
-   background-color: rgb(240, 187, 223);
-   border-radius: 45px; 
-   position: relative;
-   top: 40%;
-   left: 35%;
+   background-color: rgba(240, 187, 223, 0.781);
+   border-radius: 80%; 
+   position: absolute;
+}
+#mejillaDer{
+    top: 45%;
+    right: 10%;
+}
+
+#mejillaIzq{
+    top: 45%;
+    left: 10%;
+}
+#cara:hover{
+    transform: rotate(360deg) scale(0.5);
+}
+
+
+
+@keyframes cambioColor{
+    0% {background-color: rgb(127, 255, 212);}
+    25% {background-color: rgb(138, 43, 226);}
+    50% {background-color: rgb(0, 255, 255);}
+    100% {background-color: rgb(227, 173, 90);}
 }
 
 

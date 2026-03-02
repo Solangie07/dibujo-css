@@ -70,10 +70,14 @@ align-items: center;
     top: 33%; 
     left: 42%;
 }
-#mejillas {
+.mejillas {
     width: 20%;
    height: 25%;
-   
+   background-color: rgb(240, 187, 223);
+   border-radius: 45px; 
+   position: relative;
+   top: 40%;
+   left: 35%;
 }
 
 

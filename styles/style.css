@@ -95,16 +95,9 @@ height: 18%;
    background-color: rgba(240, 187, 223, 0.781);
    border-radius: 80%; 
    position: absolute;
-   animation-name: cambioColor;
-   animation-duration: 5s;
-   animation-iteration-count: infinite;
+   
 }
-@keyframes cambioColor {
-    0% {background-color: blue;}
-    25% {background-color: azure;}
-    50% {background-color: brown;}
-    100% {background-color: black;}
-}
+
 
 #mejillaDer{
     top: 45%;
